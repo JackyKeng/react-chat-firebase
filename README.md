@@ -23,5 +23,5 @@ var firebaseConfig = {
 
 ### `npm start`
 
-Run as [Client](http://localhost:8080/)
+Run as [Client](http://localhost:8080/)\
 Run as [Agent](http://localhost:8080/agent)
