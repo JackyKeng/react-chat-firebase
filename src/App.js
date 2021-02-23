@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Agent from './agent/Agent'
+import './App.css'
+import Client from './client/Client'
+import 'firebase/auth'
+import 'firebase/firestore'
+import { Link, Route, BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <React.Fragment>
+        <ul>
+          <li>
+            <Link to="/">iCllean Customer</Link>
+          </li>
+          <li>
+            <Link to="/agent">iCllean Support</Link>
+          </li>
+        </ul>
+        <hr />
+        <Route exact path="/" component={Client} />
+        <Route path="/agent" component={Agent} />
+      </React.Fragment>
+    </Router>
+  )
 }
 
-export default App;
+export default App
