@@ -6,7 +6,7 @@ Install all dependency package to start application
 
 ### `Configure firebase configuration`
 
-Go to [Firebase](https://firebase.google.com/), register a new account to procced for configuration.\
+Go to [Firebase](https://firebase.google.com/), register new account to procced for configuration.\
 In this demo we are using Cloud Firestore to manage collections. Create a new Cloud Firestore and replace the configuration below
 
 ```js
