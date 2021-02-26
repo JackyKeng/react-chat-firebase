@@ -11,13 +11,13 @@ In this demo we are using Cloud Firestore to manage collections. Create a new Cl
 
 ```js
 var firebaseConfig = {
-  apiKey: 'AIzaSyCwllcLOH_aS_0KiMIlOHhIsIcSurmgpkY',
-  authDomain: 'icllean.firebaseapp.com',
-  projectId: 'icllean',
-  storageBucket: 'icllean.appspot.com',
-  messagingSenderId: '105049352152',
-  appId: '1:105049352152:web:af69675e73d0a02318b4ad',
-  measurementId: 'G-WYNXBNNB7E'
+  apiKey: '<API_KEY>',
+  authDomain: '<AUTH_DOMAIN>',
+  projectId: '<PROJECT_ID>',
+  storageBucket: '<STORAGE_BUCKET>',
+  messagingSenderId: '<MESSAGE_SENDER_ID>',
+  appId: '<APP_ID>',
+  measurementId: '<MEASUREMENT_ID>'
 }
 ```
 
